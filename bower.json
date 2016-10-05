@@ -1,0 +1,21 @@
+{
+  "name": "serv",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "PashaGeronimo <pasha@pasha.kiev.ua>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
