@@ -76,3 +76,9 @@ gulp.task('clean', function() {
     gulp.src(['app/img/*.jpg', 'app/img/*.png', 'app/img/*.gif'], { read: false })
         .pipe(clean());
 });
+
+//очистка build
+gulp.task('cleanbuild', function() {
+    gulp.src(['build/*'], { read: false })
+        .pipe(clean());
+});
